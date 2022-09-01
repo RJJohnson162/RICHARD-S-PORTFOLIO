@@ -6,5 +6,5 @@ const Header = () => {
   return (
     <div>Header</div>
   )
-}H
+}
 export default Header
