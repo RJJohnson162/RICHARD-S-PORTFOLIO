@@ -52,6 +52,7 @@
 }
 
 .head-text {
+  //display: flex;
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
@@ -59,6 +60,10 @@
   text-transform: capitalize;
 
   span {
+    color: var(--secondary-color);
+  }
+
+  section {
     color: var(--secondary-color);
   }
 

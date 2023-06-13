@@ -137,10 +137,11 @@
 
         background: var(--white-color);
         box-shadow: 0 0 20px rgba( 0, 0, 0, 0.1);
-        
+
         img{
             width: 60%;
             height: 60%;
+            //drop-shadow: 0 0 5px #fff;
         }
     }
     div:nth-child(1){
