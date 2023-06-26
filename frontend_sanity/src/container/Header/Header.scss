@@ -48,7 +48,7 @@
     @media screen and (max-width: 2000px) {
         width: 100%;
         margin-right: 0rem;
-    }  
+    }
 }
 
 .app__header-badge{
@@ -63,7 +63,7 @@
     -moz-transform: translateY(75px);
     -ms-transform: translateY(75px);
     -o-transform: translateY(75px);
-    
+
     .badge-cmp,.tag-cmp{
         padding: 0.5rem 1rem;
         border-radius: 15px;
@@ -167,6 +167,7 @@
             margin: 1.75rem;
             width: 170px;
             height: 750px;
+            z-index: 2;
         }
         div:nth-child(3){
             width: 200px;
@@ -182,6 +183,22 @@
 
         div{
             margin: 1rem;
+            z-index: 2;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 150%;
+        height: auto;
+        // outline: 1px dotted black;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+        scale: 0.7;
+
+        div{
+            margin: .5rem;
+            z-index: 2;
         }
     }
 }
@@ -221,19 +238,34 @@
             -ms-transform: translateX(-75px);
             -o-transform: translateX(-75px);
         }
+
+        @media screen and (max-width: 768px) {
+            width: 75%;
+            transform: translateX(-40px);
+            -webkit-transform: translateX(-40px);
+            -moz-transform: translateX(-40px);
+            -ms-transform: translateX(-40px);
+            -o-transform: translateX(-40px);
+}
     }
 
     .overlay__circle{
         position: absolute;
         left: -30px;
         right: 0;
-        bottom: -50px;
+        bottom: -40px;
         z-index: 0;
         width: 115%;
         height: 115%;
     }
     @media screen and (max-width: 1200px) {
         margin: 1rem 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        .overlay__circle {
+            bottom: -90px;
+        }
     }
 }
 
