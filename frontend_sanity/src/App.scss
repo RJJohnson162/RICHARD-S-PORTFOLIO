@@ -2,11 +2,10 @@ $thumb-color: #ff0000;
 $track-color: #00ff00;
 
 @mixin customize-scrollbar {
-    /* Hide scrollbar in supported browsers */
+
     scrollbar-width: thin;
     scrollbar-color: $thumb-color $track-color;
 
-    /* For Chrome, Safari, and Opera */
     &::-webkit-scrollbar {
         width: 10px;
     }
@@ -27,10 +26,6 @@ $track-color: #00ff00;
     /* Apply scrollbar customization */
     @include customize-scrollbar;
 }
-
-/* Rest of your styles */
-
-/* Rest of your styles */
 
 .app__whitebg {
     background-color: var(--white-color);
