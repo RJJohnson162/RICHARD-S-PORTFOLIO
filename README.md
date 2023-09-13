@@ -1,6 +1,6 @@
 # My Portfolio Project: A Web Journey of Growth and Passion
 
-![Project Banner](https://github.com/RJJohnson162/RICHARD-S-PORTFOLIO/commit/porfolio.jpg)
+![Project Banner](https://github.com/RJJohnson162/RICHARD-S-PORTFOLIO/blob/main/porfolio.jpg)
 
 ## Introduction
 
