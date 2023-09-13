@@ -4,7 +4,7 @@
 
 Welcome to the project repository for [Project Name]. This repository houses the source code and assets for [your deployed website](https://www.your-website-link.com), a personal portfolio showcasing my skills and experiences as a frontend web developer. For a more detailed account of the project's journey and insights, please read the accompanying [blog article](https://www.blog-link.com).
 
-**Author(s):** [Your Name](https://www.linkedin.com/in/your-linkedin-profile)
+**Author(s):** [Marubi N Richard](https://www.linkedin.com/in/richard-n-marubi)
 
 ## Installation
 
