@@ -9,7 +9,7 @@ const SocialMedia = () => {
 
   return (
     <div className='app__social'>
-      <div onClick={() => handleLinkClick('https://twitter.com/MarubiRichard')}>
+      <div onClick={() => handleLinkClick('https://twitter.com/Richard_rjxyz')}>
         <BsTwitter />
       </div>
       <div onClick={() => handleLinkClick('https://www.instagram.com/rj_johnson_gse/')}>
